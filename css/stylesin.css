@@ -1,0 +1,42 @@
+.pricing-grid{
+    display: -ms-grid;
+    display: grid;
+    margin-top: 50px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 64px;
+    grid-row-gap: 50px;
+    -ms-grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-row: auto;
+    grid-template-rows: auto;
+}
+
+.pricing-card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 32px 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-item: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.pricing-card-text {
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
